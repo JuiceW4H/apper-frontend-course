@@ -1,7 +1,7 @@
 function convertToVowels(word) {
     
     // Declare variables to be used
-    const vowels = "aeiou"
+    const vowels = "aeiouAEIOU"
     let vowelOnly = ""
 
     // Checks if word is a string
@@ -21,6 +21,6 @@ function convertToVowels(word) {
     return vowelOnly
 }
 
-const word = 'this is some word'
+const word = 'this is some wOrd'
 const wordWithOnlyVowels = convertToVowels(word)
 console.log(wordWithOnlyVowels) // iioeo
