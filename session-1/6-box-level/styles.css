@@ -120,6 +120,18 @@ video{
     background-color: rgb(116, 223, 255);
 }
 
+.channel-tools{
+    width:1235.55px;
+    height: 55px;
+    background-color: gray;
+}
+
+.description{
+    width: 1235.550px;
+    height: 104px;
+    background-color: chocolate;
+}
+
 
 .recommendation-section{
     width: 402px;
